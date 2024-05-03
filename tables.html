@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables</title>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>46864</td>
+                <td>1st Product</td>
+                <td align="right">78904</td>
+            </tr>
+            <tr>
+                <td>6846845</td>
+                <td>2nd Product</td>
+                <td align="right">150</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">TOTAL: </td>
+                <td align="right">
+                    <script>
+                        var num1 = 78904;
+                        var num2 = 150;
+                        var sum = num1 + num2;
+                        document.write(sum);
+                    </script>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>
+<!-- in CSS there is priority scale:
+Tag = 1
+Class = 10
+Id = 100
+inline Style = 1000 
+The command !important = will overwrite this scale.
+-->

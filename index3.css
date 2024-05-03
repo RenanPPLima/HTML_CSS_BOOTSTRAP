@@ -1,0 +1,29 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    height: 100vh;
+}
+
+.content{
+    background-color: tomato;
+    flex-grow: 0.8;
+}
+
+.navbar{
+    display: flex;
+    background-color: gray;
+    justify-content: space-between;
+}
+
+.logo{
+    background-color: whitesmoke;
+}
+
+.menu_button{
+    background-color: greenyellow;
+}
+
+.search_button{
+    background-color: red;
+}

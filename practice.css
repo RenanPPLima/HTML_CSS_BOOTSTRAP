@@ -1,0 +1,18 @@
+body{
+    background-color: blanchedalmond;
+}
+
+h1{
+    text-align: center;
+    color: blueviolet;
+    font-size: 50px;
+}
+
+p.corpoDoTexto{
+    text-align: center;
+    color: rgb(198, 64, 64);
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-variant: small-caps;
+    text-shadow: 4px 4px 4px rgba(0, 255, 21, 0.5);
+}
